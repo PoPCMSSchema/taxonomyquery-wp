@@ -20,6 +20,7 @@
     "require": {
         "php" : "~7.1",
         "getpop/taxonomyquery": "^1.0@dev",
+        "getpop/taxonomymeta-wp": "^1.0@dev",
         "getpop/migrate-taxonomyquery-wp": "^1.0@dev"
     },
     "require-dev": {
