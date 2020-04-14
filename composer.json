@@ -22,7 +22,7 @@
         "getpop/taxonomyquery": "~0.1",
         "getpop/metaquery-wp": "~0.1",
         "getpop/taxonomymeta-wp": "~0.1",
-        "getpop/migrate-taxonomyquery-wp": "dev-master"
+        "getpop/migrate-taxonomyquery-wp": "~0.1"
     },
     "require-dev": {
         "phpstan/phpstan": "^0.12",
