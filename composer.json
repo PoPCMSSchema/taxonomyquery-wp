@@ -19,10 +19,10 @@
     "prefer-stable": true,
     "require": {
         "php" : "~7.1",
-        "getpop/taxonomyquery": "~0.1",
-        "getpop/metaquery-wp": "~0.1",
-        "getpop/taxonomymeta-wp": "~0.1",
-        "getpop/migrate-taxonomyquery-wp": "~0.1"
+        "getpop/taxonomyquery": "dev-master",
+        "getpop/metaquery-wp": "dev-master",
+        "getpop/taxonomymeta-wp": "dev-master",
+        "getpop/migrate-taxonomyquery-wp": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": ">=7.0",
