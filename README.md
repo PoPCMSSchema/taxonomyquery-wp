@@ -25,7 +25,9 @@ composer require getpop/taxonomyquery-wp
 Initialize the component:
 
 ``` php
-\PoP\TaxonomyQueryWP\Component::initialize();
+\PoP\Root\ComponentLoader::initializeComponents([
+    \PoP\TaxonomyQueryWP\Component::class,
+]);
 ```
 
 ## Standards
