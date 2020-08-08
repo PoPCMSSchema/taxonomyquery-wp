@@ -25,7 +25,7 @@ class Component extends AbstractComponent
     public static function getDependedMigrationPlugins(): array
     {
         return [
-            'migrate-taxonomyquery-wp',
+            'pop-schema/migrate-taxonomyquery-wp',
         ];
     }
 }
