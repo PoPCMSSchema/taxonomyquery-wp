@@ -1,5 +1,5 @@
 {
-    "name": "getpop/taxonomyquery-wp",
+    "name": "pop-schema/taxonomyquery-wp",
     "type": "library",
     "description": "Implementation for WordPress of contracts from package \"Taxonomy Query\"",
     "keywords": [
@@ -19,10 +19,10 @@
     "prefer-stable": true,
     "require": {
         "php": "~7.2",
-        "getpop/taxonomyquery": "dev-master",
-        "getpop/metaquery-wp": "dev-master",
-        "getpop/taxonomymeta-wp": "dev-master",
-        "getpop/migrate-taxonomyquery-wp": "dev-master"
+        "pop-schema/taxonomyquery": "dev-master",
+        "pop-schema/metaquery-wp": "dev-master",
+        "pop-schema/taxonomymeta-wp": "dev-master",
+        "pop-schema/migrate-taxonomyquery-wp": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": ">=8.5",
@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PoP\\TaxonomyQueryWP\\": "src"
+            "PoPSchema\\TaxonomyQueryWP\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PoP\\TaxonomyQueryWP\\": "tests"
+            "PoPSchema\\TaxonomyQueryWP\\": "tests"
         }
     },
     "scripts": {
